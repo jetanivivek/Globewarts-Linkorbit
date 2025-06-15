@@ -26,7 +26,7 @@ export default function Home() {
         {/* Logo and Text Section */}
         <div className="flex items-center space-x-2">
           <div className="img w-15 h-15 ">
-            <Image src="/globewarts.png" alt="Globewarts Logo" width={50} height={50} />
+            <Image src="/Globewarts.png" alt="Globewarts Logo" width={50} height={50} />
           </div>
           <div className="text">
             <p className={`text-lg font-semibold text-[#4285f4] ${isMobile ? 'text-sm' : ''}`}>
@@ -94,7 +94,7 @@ export default function Home() {
           reverse
         >
           <a href="https://www.globewarts.com/" title="globewarts Website" target="_blank" rel="noopener noreferrer">
-            <Image src="/globewarts.png" alt="globewarts Website Icon" width={50} height={50} />
+            <Image src="/Globewarts.png" alt="globewarts Website Icon" width={50} height={50} />
           </a>
         </OrbitingCircles>
       </div>
